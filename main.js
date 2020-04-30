@@ -1,9 +1,9 @@
 
 
 
-function leapYear(n){
+function leapYear(year){
    
-        return (n % 400===0) || (n % 4 ===0)||(n % !100===0);
+        return (year % 4==0 &&  !100==0) ||(year % 400==0);
     }
 
 
